@@ -1,17 +1,18 @@
 #personalTitle {
   color: #f47442;
+  margin-top: 50px;
 }
 
 .personal-container {
   position: absolute;
-  top: 329vh;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px);
   z-index: 4;
 }
 
 .chevron-personal {
   margin-top: -5px;
   .chevron {
-    height: 30vh;
+    height: 275px;
     z-index: 4;
   }
   .chevron:before {
@@ -24,7 +25,8 @@
 
 .flare-container {
   position: absolute;
-  top: 385vh;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px);
+  margin-top: 50px;
   z-index: 4;
   img {
     height: 65px;
@@ -34,7 +36,7 @@
 .chevron-flare {
   margin-top: -5px;
   .chevron {
-    height: 30vh;
+    height: 275px;
     z-index: 4;
   }
   .chevron:before {
@@ -50,10 +52,10 @@
 
 .spaceapps-container {
   position: absolute;
-  top: 412vh;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px);
+  margin-top: 20px;
   z-index: 4;
   img {
-    margin-left: 15px;
     height: 140px;
   }
 }
@@ -61,7 +63,7 @@
 .chevron-spaceapps {
   margin-top: -5px;
   .chevron {
-    height: 30vh;
+    height: 275px;
     z-index: 4;
   }
   .chevron:before {
@@ -75,10 +77,10 @@
 
 .hackthenorth-container {
   position: absolute;
-  top: 445vh;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px + 275px);
+  margin-top: 50px;
   z-index: 4;
   img {
-    margin-left: 15px;
     height: 65px;
   }
 }
@@ -86,7 +88,7 @@
 .chevron-hackthenorth {
   margin-top: -5px;
   .chevron {
-    height: 30vh;
+    height: 275px;
     z-index: 4;
   }
   .chevron:before {
@@ -100,10 +102,10 @@
 
 .mhacks-container {
   position: absolute;
-  top: 475vh;
+  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px + 275px + 275px);
+  margin-top: 50px;
   z-index: 4;
   img {
-    margin-left: 15px;
     height: 65px;
   }
 }
@@ -111,7 +113,7 @@
 .chevron-mhacks {
   margin-top: -5px;
   .chevron {
-    height: 30vh;
+    height: 275px;
     z-index: 4;
   }
   .chevron:before {
@@ -126,7 +128,7 @@
   background: white;
   height: 400px;
   position: relative;
-  top: -300px;
+  margin-top: -300px;
   opacity: 0.95;
   color: $dark-grey;
   font-family: HelveticaNeue-Thin;

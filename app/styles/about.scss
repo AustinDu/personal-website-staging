@@ -1,6 +1,6 @@
 .chevron-about {
   .chevron {
-    height: 100vh;
+    height: 950px;
   }
   .chevron:before {
     background: rgb(250,250,250);
@@ -12,14 +12,13 @@
 
 .about-container {
   position: absolute;
-  top: 120vh;
+  top: 130vh; // height of intro container
 }
 
 .moonTitle{
   font-family: MoonBold;
   font-size: 4em;
   text-align: center;
-  top: 25vh;
   position: relative;
   letter-spacing: 2vw;
   text-indent: 2vw;
@@ -28,13 +27,14 @@
 
 #aboutTitle {
   color: #FF6666;
+  margin-top: 40px;
 }
 
 #aboutText{
   font-family: DosisBold;
   font-size: 1.0em;
   text-align: center;
-  top: 33vh;
+  margin-top: 5%;
   position: relative;
   color: #8F8D8A;
   width: 50vw;
