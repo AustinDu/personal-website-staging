@@ -8,7 +8,7 @@
 }
 
 .intro-transparency {
-  opacity: 0.9;
+  opacity: 0.3;
 }
 
 .chevron:before {
@@ -17,8 +17,8 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 51%;
-  background: $dark-grey;
+  width: 50%;
+  background: $white;
   -webkit-transform: skew(0deg, 9deg);
   -moz-transform: skew(0deg, 9deg);
   -ms-transform: skew(0deg, 9deg);
@@ -32,7 +32,7 @@
   right: 0;
   height: 100%;
   width: 50%;
-  background: $dark-grey;
+  background: $white;
   -webkit-transform: skew(0deg, -9deg);
   -moz-transform: skew(0deg, -9deg);
   -ms-transform: skew(0deg, -9deg);
@@ -44,8 +44,8 @@
   font-size: 10em;
   text-align: center;
   font-family: Againts;
-  color: #EEEEEE;
-  top: 22vh;
+  color: $dark-grey;
+  top: 24vh;
 }
 
 #Du{
@@ -54,7 +54,7 @@
   text-align: center;
   font-family: Againts;
   color: #66FFCC;
-  top: 10vh;
+  top: 12vh;
 }
 
 #differentD{
@@ -69,10 +69,15 @@
 }
 
 #intro-bg {
-  position: absolute;
+  position: fixed;
+  bottom: 0px;
   img {
     object-fit: cover;
     width: 100%;
     height: 130vh;
   }
+}
+
+.full-width {
+  width: 100%;
 }

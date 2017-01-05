@@ -1,0 +1,103 @@
+#workTitle {
+  color: #FF6666;
+}
+
+.work-container {
+  position: absolute;
+  top: 212vh;
+}
+
+.chevron-work {
+  margin-top: -5px;
+  .chevron {
+    height: 30vh;
+  }
+  .chevron:before {
+    background: rgb(250,250,250);
+  }
+  .chevron:after {
+    background: rgb(250,250,250);
+  }
+}
+
+
+.tribalscale-container {
+  position: absolute;
+  top: 266vh;
+  z-index: 3;
+  img {
+    
+    height: 65px;
+  }
+}
+
+.chevron-tribalscale {
+  margin-top: -5px;
+  .chevron {
+    height: 30vh;
+    z-index: 3;
+  }
+  .chevron:before {
+    background: rgb(1,119,154);
+  }
+  .chevron:after {
+    background: rgb(1,119,154);
+  }
+}
+
+
+
+.skywatch-container {
+  position: absolute;
+  top: 296vh;
+  z-index: 3;
+  img {
+
+    height: 65px;
+  }
+}
+
+.chevron-skywatch {
+  margin-top: -5px;
+  .chevron {
+    height: 30vh;
+  }
+  .chevron:before {
+  }
+  .chevron:after {
+  }
+}
+
+.skywatch-bg {
+  z-index: 2;
+  position: absolute;
+  top: 270vh;
+}
+
+
+
+.redlab-container {
+  position: absolute;
+  top: 326vh;
+  z-index: 4;
+  img {
+
+    height: 65px;
+  }
+}
+
+.chevron-redlab {
+  margin-top: -5px;
+
+  z-index: 4;
+  .chevron {
+    z-index: 4;
+    height: 30vh;
+  }
+  .chevron:before {
+    background: rgb(245,245,245);
+  }
+  .chevron:after {
+    background: rgb(245,245,245);
+  }
+}
