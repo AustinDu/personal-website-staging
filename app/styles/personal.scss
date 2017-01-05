@@ -1,0 +1,138 @@
+#personalTitle {
+  color: #f47442;
+}
+
+.personal-container {
+  position: absolute;
+  top: 329vh;
+  z-index: 4;
+}
+
+.chevron-personal {
+  margin-top: -5px;
+  .chevron {
+    height: 30vh;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: rgb(240,240,240);
+  }
+  .chevron:after {
+    background: rgb(240,240,240);
+  }
+}
+
+.flare-container {
+  position: absolute;
+  top: 385vh;
+  z-index: 4;
+  img {
+    height: 65px;
+  }
+}
+
+.chevron-flare {
+  margin-top: -5px;
+  .chevron {
+    height: 30vh;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: rgb(235,235,235);
+  }
+  .chevron:after {
+    background: rgb(235,235,235);
+  }
+}
+
+
+
+
+.spaceapps-container {
+  position: absolute;
+  top: 412vh;
+  z-index: 4;
+  img {
+    margin-left: 15px;
+    height: 140px;
+  }
+}
+
+.chevron-spaceapps {
+  margin-top: -5px;
+  .chevron {
+    height: 30vh;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: #4a4a4a;
+  }
+  .chevron:after {
+    background: #4a4a4a;
+  }
+}
+
+
+.hackthenorth-container {
+  position: absolute;
+  top: 445vh;
+  z-index: 4;
+  img {
+    margin-left: 15px;
+    height: 65px;
+  }
+}
+
+.chevron-hackthenorth {
+  margin-top: -5px;
+  .chevron {
+    height: 30vh;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: #282828;
+  }
+  .chevron:after {
+    background: #282828;
+  }
+}
+
+
+.mhacks-container {
+  position: absolute;
+  top: 475vh;
+  z-index: 4;
+  img {
+    margin-left: 15px;
+    height: 65px;
+  }
+}
+
+.chevron-mhacks {
+  margin-top: -5px;
+  .chevron {
+    height: 30vh;
+    z-index: 4;
+  }
+  .chevron:before {
+    background: rgb(247,218,147);
+  }
+  .chevron:after {
+    background: rgb(247,218,147);
+  }
+}
+
+.my-footer {
+  background: white;
+  height: 400px;
+  position: relative;
+  top: -300px;
+  opacity: 0.95;
+  color: $dark-grey;
+  font-family: HelveticaNeue-Thin;
+  text-align: center;
+  span {
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+}
