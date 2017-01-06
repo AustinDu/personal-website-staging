@@ -5,7 +5,7 @@
 
 .personal-container {
   position: absolute;
-  top: calc(130vh + 950px + 275px + 275px + 275px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   z-index: 4;
 }
 
@@ -25,7 +25,7 @@
 
 .flare-container {
   position: absolute;
-  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 40px;
   z-index: 4;
   color: $dark-grey;
@@ -41,7 +41,7 @@
 .chevron-flare {
   margin-top: -5px;
   .chevron {
-    height: 275px;
+    height: $info-container-height;
     z-index: 4;
   }
   .chevron:before {
@@ -57,7 +57,7 @@
 
 .spaceapps-container {
   position: absolute;
-  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 10px;
   z-index: 4;
   color: white;
@@ -76,7 +76,7 @@
 .chevron-spaceapps {
   margin-top: -5px;
   .chevron {
-    height: 275px;
+    height: $info-container-height;
     z-index: 4;
   }
   .chevron:before {
@@ -90,7 +90,7 @@
 
 .hackthenorth-container {
   position: absolute;
-  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 40px;
   z-index: 4;
   img {
@@ -105,7 +105,7 @@
 .chevron-hackthenorth {
   margin-top: -5px;
   .chevron {
-    height: 275px;
+    height: $info-container-height;
     z-index: 4;
   }
   .chevron:before {
@@ -119,7 +119,7 @@
 
 .mhacks-container {
   position: absolute;
-  top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px + 275px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 40px;
   z-index: 4;
   img {
@@ -134,7 +134,7 @@
 .chevron-mhacks {
   margin-top: -5px;
   .chevron {
-    height: 275px;
+    height: $info-container-height;
     z-index: 4;
   }
   .chevron:before {

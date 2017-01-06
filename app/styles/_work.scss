@@ -24,7 +24,7 @@
 
 .tribalscale-container {
   position: absolute;
-  top: calc(130vh + 950px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height});
   margin-top: 75px;
   z-index: 3;
   color: white;
@@ -41,7 +41,7 @@
 .chevron-tribalscale {
   margin-top: -5px;
   .chevron {
-    height: 275px;
+    height: $info-container-height;
     z-index: 3;
   }
   .chevron:before {
@@ -56,7 +56,7 @@
 
 .skywatch-container {
   position: absolute;
-  top: calc(130vh + 950px + 275px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height});
   margin-top: 75px;
   z-index: 3;
   color: white;
@@ -73,7 +73,7 @@
 .chevron-skywatch {
   margin-top: -5px;
   .chevron {
-    height: 275px;
+    height: $info-container-height;
   }
   .chevron:before {
   }
@@ -84,14 +84,14 @@
 .skywatch-bg {
   z-index: 2;
   position: absolute;
-  top: calc(130vh + 950px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height});
 }
 
 
 
 .redlab-container {
   position: absolute;
-  top: calc(130vh + 950px + 275px + 275px + 275px);
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 60px;
   z-index: 4;
   color: $dark-grey;
@@ -111,7 +111,7 @@
   z-index: 4;
   .chevron {
     z-index: 4;
-    height: 275px;
+    height: $info-container-height;
   }
   .chevron:before {
     background: rgb(245,245,245);
@@ -122,11 +122,11 @@
 }
 
 .more-info-container {
-  margin-top: -25px;
-  width: 50%;
+  margin-top: $body-margin-top;
+  width: $body-width;
   height: 150px;
   text-align: center;
-  font-size: 1.0em;
+  font-size: $body-font-size;
   span {
     width: 50%;
   }
