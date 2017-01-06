@@ -14,6 +14,15 @@ html, body {
   height: 130vh;
   width: 100vw;
   top: -5vw; // the height of the chevron's empty space at the top depend on viewport WIDTH (not height)
+  a {
+    position: absolute;
+    right: 15px;
+    bottom: $link-to-project-bottom;
+    z-index: 10;
+    img {
+      height: 33px;
+    }
+  }
 }
 
 .intro-transparency {

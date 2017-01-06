@@ -32,10 +32,6 @@
   img {
     height: 65px;
   }
-  a {
-      color: $dark-grey;
-      text-decoration: none;
-  }
 }
 
 .chevron-flare {
@@ -67,10 +63,6 @@
   img {
     height: 140px;
   }
-  a {
-      color: white;
-      text-decoration: none;
-  }
 }
 
 .chevron-spaceapps {
@@ -93,12 +85,9 @@
   top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 40px;
   z-index: 4;
+  color: white;
   img {
     height: 65px;
-  }
-  a {
-      color: white;
-      text-decoration: none;
   }
 }
 
@@ -122,12 +111,9 @@
   top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 40px;
   z-index: 4;
+  color: rgb(219,65,58);
   img {
     height: 65px;
-  }
-  a {
-      color: rgb(219,65,58);
-      text-decoration: none;
   }
 }
 

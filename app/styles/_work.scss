@@ -31,11 +31,6 @@
   img {
     height: 65px;
   }
-
-  a {
-      color: white;
-      text-decoration: none;
-  }
 }
 
 .chevron-tribalscale {
@@ -63,11 +58,6 @@
   img {
     height: 65px;
   }
-
-  a {
-      color: white;
-      text-decoration: none;
-  }
 }
 
 .chevron-skywatch {
@@ -94,14 +84,9 @@
   top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 60px;
   z-index: 4;
-  color: $dark-grey;
+  color: rgb(3, 92, 58);
   img {
     height: 65px;
-  }
-
-  a {
-      color: rgb(3, 92, 58);
-      text-decoration: none;
   }
 }
 

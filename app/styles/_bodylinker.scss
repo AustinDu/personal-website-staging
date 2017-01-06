@@ -3,6 +3,9 @@
   $body-font-size: 1.0em;
   $body-width: 50%;
   $body-margin-top: -25px;
+  $link-to-project-bottom: 85px;
+  @import "_intro.scss";
+  @import "_about.scss";
   @import "_work.scss";
   @import "_personal.scss";
 }
@@ -12,6 +15,9 @@
   $body-font-size: 0.85em;
   $body-width: 80%;
   $body-margin-top: -40px;
+  $link-to-project-bottom: 25px;
+  @import "_intro.scss";
+  @import "_about.scss";
   @import "_work.scss";
   @import "_personal.scss";
 }
