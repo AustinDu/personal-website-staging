@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name personalWebsiteStagingApp.controller:MainCtrl
+ * @name personalWebsite.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the personalWebsiteStagingApp
+ * Controller of the personalWebsite
  */
-angular.module('personalWebsiteStagingApp')
+angular.module('personalWebsite')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

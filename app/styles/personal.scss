@@ -1,6 +1,6 @@
 #personalTitle {
   color: #f47442;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .personal-container {
@@ -26,10 +26,15 @@
 .flare-container {
   position: absolute;
   top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px);
-  margin-top: 50px;
+  margin-top: 40px;
   z-index: 4;
+  color: $dark-grey;
   img {
     height: 65px;
+  }
+  a {
+      color: $dark-grey;
+      text-decoration: none;
   }
 }
 
@@ -53,10 +58,18 @@
 .spaceapps-container {
   position: absolute;
   top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px);
-  margin-top: 20px;
+  margin-top: 10px;
   z-index: 4;
+  color: white;
+  .more-info-container {
+    margin-top: 20px;
+  }
   img {
     height: 140px;
+  }
+  a {
+      color: white;
+      text-decoration: none;
   }
 }
 
@@ -78,10 +91,14 @@
 .hackthenorth-container {
   position: absolute;
   top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px + 275px);
-  margin-top: 50px;
+  margin-top: 40px;
   z-index: 4;
   img {
     height: 65px;
+  }
+  a {
+      color: white;
+      text-decoration: none;
   }
 }
 
@@ -103,10 +120,14 @@
 .mhacks-container {
   position: absolute;
   top: calc(130vh + 950px + 275px + 275px + 275px + 275px + 275px + 275px + 275px + 275px);
-  margin-top: 50px;
+  margin-top: 40px;
   z-index: 4;
   img {
     height: 65px;
+  }
+  a {
+      color: rgb(219,65,58);
+      text-decoration: none;
   }
 }
 
