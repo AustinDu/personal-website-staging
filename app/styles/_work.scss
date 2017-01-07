@@ -28,6 +28,8 @@
   margin-top: 75px;
   z-index: 3;
   color: white;
+  left: -60px;
+  padding-left: 120px;
   img {
     height: 65px;
   }
@@ -35,6 +37,7 @@
 
 .chevron-tribalscale {
   margin-top: -5px;
+  z-index: 3;
   .chevron {
     height: $info-container-height;
     z-index: 3;
@@ -55,6 +58,8 @@
   margin-top: 75px;
   z-index: 3;
   color: white;
+  left: -60px;
+  padding-left: 120px;
   img {
     height: 65px;
   }
@@ -85,6 +90,8 @@
   margin-top: 60px;
   z-index: 4;
   color: rgb(3, 92, 58);
+  left: -60px;
+  padding-left: 120px;
   img {
     height: 65px;
   }
