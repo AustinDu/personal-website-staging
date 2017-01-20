@@ -80,12 +80,21 @@ html, body {
   line-height: 50%;
   margin-right: -1.5%;
 }
-
 .my-name-container {
   position: absolute;
-  top: -60px;
   left: 0px;
   width: 100vw;
+}
+@media only screen and (max-device-width : 768px) {
+  .my-name-container {
+    top: -60px;
+  }
+}
+
+@media only screen and (min-device-width : 769px) {
+  .my-name-container {
+    top: 0px;
+  }
 }
 
 #intro-bg {
