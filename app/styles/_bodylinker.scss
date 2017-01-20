@@ -13,7 +13,7 @@
 @media only screen and (max-device-width : 768px) {
   $info-container-height: 275px; // same for now, until further notice
   $body-font-size: 0.85em;
-  $body-width: 80%;
+  $body-width: 100%;
   $body-margin-top: -40px;
   $link-to-project-bottom: 25px;
   @import "_intro.scss";
