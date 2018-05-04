@@ -5,15 +5,15 @@
 
 .personal-container {
   position: absolute;
-  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
-  z-index: 4;
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
+  z-index: 5;
 }
 
 .chevron-personal {
   margin-top: -5px;
   .chevron {
     height: 275px;
-    z-index: 4;
+    z-index: 5;
   }
   .chevron:before {
     background: rgb(240,240,240);
@@ -25,9 +25,9 @@
 
 .flare-container {
   position: absolute;
-  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 40px;
-  z-index: 4;
+  z-index: 5;
   color: $dark-grey;
   left: -60px;
   padding-left: 120px;
@@ -40,7 +40,7 @@
   margin-top: -5px;
   .chevron {
     height: $info-container-height;
-    z-index: 4;
+    z-index: 5;
   }
   .chevron:before {
     background: rgb(235,235,235);
@@ -55,9 +55,9 @@
 
 .spaceapps-container {
   position: absolute;
-  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 10px;
-  z-index: 4;
+  z-index: 5;
   color: white;
   left: -60px;
   padding-left: 120px;
@@ -73,7 +73,7 @@
   margin-top: -5px;
   .chevron {
     height: $info-container-height;
-    z-index: 4;
+    z-index: 5;
   }
   .chevron:before {
     background: #4a4a4a;
@@ -86,9 +86,9 @@
 
 .hackthenorth-container {
   position: absolute;
-  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 40px;
-  z-index: 4;
+  z-index: 5;
   color: white;
   left: -60px;
   padding-left: 120px;
@@ -101,7 +101,7 @@
   margin-top: -5px;
   .chevron {
     height: $info-container-height;
-    z-index: 4;
+    z-index: 5;
   }
   .chevron:before {
     background: #282828;
@@ -114,9 +114,9 @@
 
 .mhacks-container {
   position: absolute;
-  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 40px;
-  z-index: 4;
+  z-index: 5;
   color: rgb(219,65,58);
   left: -60px;
   padding-left: 120px;
@@ -129,7 +129,7 @@
   margin-top: -5px;
   .chevron {
     height: $info-container-height;
-    z-index: 4;
+    z-index: 5;
   }
   .chevron:before {
     background: rgb(247,218,147);

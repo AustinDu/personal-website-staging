@@ -22,11 +22,41 @@
 }
 
 
-.tribalscale-container {
+.carrotsense-container {
   position: absolute;
   top: calc(130vh + 950px + #{$info-container-height});
   margin-top: 75px;
   z-index: 3;
+  color: white;
+  left: -60px;
+  padding-left: 120px;
+  img {
+    margin-top: -10px;
+    height: 60px;
+  }
+}
+
+.chevron-carrotsense {
+  margin-top: -5px;
+  z-index: 3;
+  .chevron {
+    height: $info-container-height;
+    z-index: 3;
+  }
+  .chevron:before {
+    background: rgb(27,176,137);
+  }
+  .chevron:after {
+    background: rgb(27,176,137);
+  }
+}
+
+
+.tribalscale-container {
+  position: absolute;
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height});
+  margin-top: 75px;
+  z-index: 4;
   color: white;
   left: -60px;
   padding-left: 120px;
@@ -37,10 +67,10 @@
 
 .chevron-tribalscale {
   margin-top: -5px;
-  z-index: 3;
+  z-index: 4;
   .chevron {
     height: $info-container-height;
-    z-index: 3;
+    z-index: 4;
   }
   .chevron:before {
     background: rgb(1,119,154);
@@ -54,9 +84,9 @@
 
 .skywatch-container {
   position: absolute;
-  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height});
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 75px;
-  z-index: 3;
+  z-index: 4;
   color: white;
   left: -60px;
   padding-left: 120px;
@@ -77,18 +107,18 @@
 }
 
 .skywatch-bg {
-  z-index: 2;
+  z-index: 3;
   position: absolute;
-  top: calc(130vh + 950px + #{$info-container-height});
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height});
 }
 
 
 
 .redlab-container {
   position: absolute;
-  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
+  top: calc(130vh + 950px + #{$info-container-height} + #{$info-container-height} + #{$info-container-height} + #{$info-container-height});
   margin-top: 60px;
-  z-index: 4;
+  z-index: 5;
   color: rgb(3, 92, 58);
   left: -60px;
   padding-left: 120px;
@@ -100,9 +130,9 @@
 .chevron-redlab {
   margin-top: -5px;
 
-  z-index: 4;
+  z-index: 5;
   .chevron {
-    z-index: 4;
+    z-index: 5;
     height: $info-container-height;
   }
   .chevron:before {

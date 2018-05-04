@@ -26,7 +26,7 @@ html, body {
 }
 
 .intro-transparency {
-  opacity: 0.3;
+  opacity: 0.0;
 }
 
 .chevron:before {
@@ -62,8 +62,8 @@ html, body {
   font-size: 10em;
   text-align: center;
   font-family: Againts;
-  color: $dark-grey;
-  top: 24vh;
+  color: white;
+  top: 26vh;
 }
 
 #Du{
@@ -71,8 +71,8 @@ html, body {
   font-size: 12em;
   text-align: center;
   font-family: Againts;
-  color: #66FFCC;
-  top: 12vh;
+  color: white;
+  top: 14vh;
 }
 
 #differentD{
@@ -100,11 +100,14 @@ html, body {
 #intro-bg {
   position: fixed;
   bottom: 0px;
-  img {
-    object-fit: cover;
-    width: 100%;
-    height: 130vh;
-  }
+  width: 100%;
+  height: 130vh;
+
+  background: #22c476; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ffd800, #22c476); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ffd800, #22c476); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ffd800, #22c476); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ffd800, #22c476); /* Standard syntax */
 }
 
 .full-width {
